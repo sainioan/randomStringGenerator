@@ -15,10 +15,7 @@ string = generateString()
 
 const getStringNow = () => {
 
-
-    // var timestamp = new Date().getTime().toLocaleDateString("fi-FI")
-
-    const timestamp = new Date().toLocaleTimeString(undefined, {
+    const timestamp = new Date().toLocaleTimeString('fi-FI', {
         day: 'numeric',
         month: 'numeric',
         year: 'numeric',

@@ -4,7 +4,7 @@
   "description": "generates a random string and outputs it every five seconds",
   "main": "randomStringApp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node randomStringApp.js"
   },
   "repository": {
     "type": "git",
