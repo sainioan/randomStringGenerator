@@ -16,8 +16,16 @@ string = generateString()
 const getStringNow = () => {
 
 
-    var timestamp = new Date(Date.now()).toLocaleDateString("fi-FI")
+    // var timestamp = new Date().getTime().toLocaleDateString("fi-FI")
 
+    const timestamp = new Date().toLocaleTimeString(undefined, {
+        day: 'numeric',
+        month: 'numeric',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+    });
     console.log(`${string} ${timestamp}`);
     setTimeout(getStringNow, 5000)
 }
