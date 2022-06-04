@@ -1,0 +1,19 @@
+{
+  "name": "randomstringgenerator",
+  "version": "1.0.0",
+  "description": "generates a random string and outputs it every five seconds",
+  "main": "randomStringApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainioan/randomStringGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sainioan/randomStringGenerator/issues"
+  },
+  "homepage": "https://github.com/sainioan/randomStringGenerator#readme"
+}
