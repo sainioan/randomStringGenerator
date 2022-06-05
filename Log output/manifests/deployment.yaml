@@ -13,5 +13,5 @@ spec:
         app: randomStringApp
     spec:
       containers:
-        - name:  Log output
+        - name:  Logoutput
           image: anniinasainio/randomstringgenerator
