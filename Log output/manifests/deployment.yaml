@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Log output
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: randomStringApp
+  template:
+    metadata:
+      labels:
+        app: randomStringApp
+    spec:
+      containers:
+        - name:  Log output
+          image: anniinasainio/randomstringgenerator

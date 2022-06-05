@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sainioan/randomStringGenerator.git"
+    "url": "git+https://github.com/sainioan/Apps.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sainioan/randomStringGenerator/issues"
   },
-  "homepage": "https://github.com/sainioan/randomStringGenerator#readme"
+  "homepage": "https://github.com/sainioan/Apps.git#readme"
 }
