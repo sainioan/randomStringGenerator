@@ -4,7 +4,7 @@
   "description": "generates a random string and outputs it every five seconds",
   "main": "randomStringApp.js",
   "scripts": {
-      "start": "node randomStringApp.js"
+    "start": "node randomStringApp.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sainioan/randomStringGenerator/issues"
   },
-  "homepage": "https://github.com/sainioan/Apps.git#readme"
+  "homepage": "https://github.com/sainioan/Apps.git#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

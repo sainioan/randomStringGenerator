@@ -23,8 +23,22 @@ const getStringNow = () => {
         minute: '2-digit',
         second: '2-digit',
     });
-    console.log(`${string} ${timestamp}`);
+    var logoutput = `${string} ${timestamp}`
+    return logoutput
     setTimeout(getStringNow, 5000)
 }
 
-getStringNow()
+
+
+const express = require("express");
+const app = express();
+
+app.listen(5000, () => {
+  console.log("Application started and Listening on port 5000");
+});
+
+app.get("/GET", (req, res) => {
+  var logoutput = getStringNow()
+  res.send(logoutput);
+});
+
