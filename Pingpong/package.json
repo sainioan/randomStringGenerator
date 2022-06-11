@@ -1,0 +1,15 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pong.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "start": "node pingpong.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

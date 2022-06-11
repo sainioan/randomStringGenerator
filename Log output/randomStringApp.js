@@ -33,7 +33,7 @@ const getStringNow = () => {
 const express = require("express");
 const app = express();
 
-app.listen(5000, () => {
+app.listen(3000, () => {
   console.log("Application started and Listening on port 5000");
 });
 

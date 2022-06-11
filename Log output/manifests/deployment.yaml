@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name:  logoutput
-          image: anniinasainio/randomstringgenerator
+          image: anniinasainio/randomstringgenerator:v3.0 
