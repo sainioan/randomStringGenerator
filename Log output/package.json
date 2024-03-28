@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sainioan/Apps.git#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.19.2"
   }
 }
